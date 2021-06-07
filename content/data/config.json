@@ -1,0 +1,71 @@
+{
+    "title": "Stackbit Exto Theme",
+    "path_prefix": "/",
+    "color_scheme": "ligth",
+    "accent_color": "pink",
+    "header": {
+        "title": "Exto",
+        "has_nav": true,
+        "nav_links": [
+            {
+                "label": "Artículos",
+                "url": "/blog/",
+                "style": "link"
+            },
+            {
+                "label": "Acerca",
+                "url": "/about/",
+                "style": "link"
+            },
+            {
+                "label": "Cursos",
+                "url": "/cursos/",
+                "style": "link"
+            },
+            {
+                "label": "Podcast",
+                "url": "/podcast/",
+                "style": "link"
+            },
+            {
+                "label": "Discord",
+                "url": "https://discord.gg/5mZc7fU5WZ",
+                "style": "link"
+            }
+        ]
+    },
+    "footer": {
+        "content": "Oscar Barajas Tavares @gndx | Todos los izquierdos reservados © 2021.",
+        "has_social": true,
+        "social_links": [
+            {
+                "label": "Twitter",
+                "url": "https://twitter.com/gndx",
+                "style": "icon",
+                "icon": "twitter",
+                "new_window": true
+            },
+            {
+                "label": "Instagram",
+                "url": "https://instagram.com/gndx",
+                "style": "icon",
+                "icon": "instagram",
+                "new_window": true
+            },
+            {
+                "label": "YouTube",
+                "url": "https://www.youtube.com/channel/UCw05fUBPwmpu-ehXFMqfdMw?sub_confirmation=1",
+                "style": "icon",
+                "icon": "youtube",
+                "new_window": true
+            },
+            {
+                "label": "GitHub",
+                "url": "https://github.com/gndx",
+                "style": "icon",
+                "icon": "github",
+                "new_window": true
+            }
+        ]
+    }
+}
