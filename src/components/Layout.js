@@ -32,46 +32,44 @@ export default class Body extends React.Component {
         const configTitle = _.get(config, 'title');
         const colorScheme = _.get(config, 'color_scheme', 'light');
         const accentColor = _.get(config, 'accent_color', 'pink');
-        const favicon = _.get(config, 'favicon');
-        const domain = _.trim(_.get(config, 'domain', ''), '/');
-        const seo = _.get(page, 'seo');
-        const seoTitle = _.get(seo, 'title');
+
+        const seoImage = _.get(page, 'thumb_image');
+        const seoTitle = _.get(page, 'title');
+        const seoDescription = _.get(page, 'subtitle');
+
         const title = seoTitle ? seoTitle : [pageTitle, configTitle].join(' | ');
-        const seoDescription = _.get(seo, 'description', '');
-        const seoRobots = _.get(seo, 'robots', []).join(',');
-        const seoExtra = _.get(seo, 'extra', []).map((meta, index) => {
-            const keyName = _.get(meta, 'keyName', 'name');
-            const name = _.get(meta, 'name');
-            if (!name) {
-                return null;
-            }
-            const nameAttr = { [keyName]: name };
-            const relativeUrl = _.get(meta, 'relativeUrl');
-            let value = _.get(meta, 'value');
-            if (!value) {
-                return null;
-            }
-            if (relativeUrl) {
-                if (!domain) {
-                    return null;
-                }
-                value = domain + withPrefix(value);
-            }
-            return <meta key={index} {...nameAttr} content={value} />;
-        });
+
+        const description = seoDescription ? seoDescription : 'Foundation Layer at @platzi - Microsoft MVP - Lead at Developer Circles from Facebook - I teach React &amp; Svelte.'
+        const ogImage = seoImage ? seoImage : 'https://arepa.s3.amazonaws.com/og-gndx.png';
 
         return (
             <React.Fragment>
                 <Helmet>
                     <title>{title}</title>
-                    <meta charSet="utf-8" />
-                    <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <meta name="google" content="notranslate" />
-                    <meta name="description" content={seoDescription} />
-                    {!_.isEmpty(seoRobots) && <meta name="robots" content={seoRobots} />}
-                    {seoExtra}
+                    <meta name="description" content={description} />
                     <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet" />
-                    {favicon && <link rel="icon" href={withPrefix(favicon)} />}
+                    <meta content="#333333" name="theme-color" />
+                    <link rel="canonical" href="https://gndx.dev/" />
+                    <link href="favicon.png" rel="icon" type="image/png" />
+                    <meta name="description" content={description} />
+                    <meta name="twitter:card" content="summary_large_image" />
+                    <meta name="twitter:site" content="@gndx" />
+                    <meta name="twitter:creator" content="@gndx" />
+                    <meta name="twitter:title" content={title} />
+                    <meta name="twitter:description" content={description} />
+                    <meta name="twitter:image" content={ogImage} />
+                    <meta property="og:title" content={title} />
+                    <meta property="og:description" content={description} />
+                    <meta property="og:image" content={ogImage} />
+                    <meta property="og:url" content="https://gndx.dev/" />
+                    <meta property="og:site_name" content={title} />
+                    <meta property="og:locale" content="es_ES" />
+                    <meta property="og:type" content="article" />
+                    <meta property="fb:app_id" content="285513459106600" />
+
+                    <link rel="manifest" href="/manifest.json" />
+
                     <body className={classNames(`palette-${colorScheme}`, `accent-${accentColor}`)} />
                 </Helmet>
                 <div id="page" className="site">

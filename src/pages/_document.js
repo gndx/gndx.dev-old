@@ -35,7 +35,7 @@ export default class MyDocument extends Document {
                 <Head>{this.helmetHeadComponents}
                     <script
                         async
-                        src="https://www.googletagmanager.com/gtag/js?id=[UA-163310293-1"
+                        src="https://www.googletagmanager.com/gtag/js?id=UA-163310293-1"
                     />
                     <script
                         dangerouslySetInnerHTML={{
