@@ -4,9 +4,9 @@ subtitle: Tema personalizado para ZSH inspirado en la configuración que utilizo
 excerpt: >-
   Tema personalizado para ZSH inspirado en la configuración que utilizo en mis cursos de JavaScript en Platzi.
 date: '2021-06-08'
-thumb_image: 'https://arepa.s3.amazonaws.com/oh-my-zsh-gndx-theme.jpg'
+thumb_image: https://arepa.s3.amazonaws.com/oh-my-zsh-gndx-theme.jpg
 thumb_image_alt: tema gndx para zsh
-image: 'https://arepa.s3.amazonaws.com/oh-my-zsh-gndx-theme.jpg'
+image: https://arepa.s3.amazonaws.com/oh-my-zsh-gndx-theme.jpg
 image_alt: tema gndx para zsh
 url: blog/tema-oh-my-zsh-gndx
 layout: post
