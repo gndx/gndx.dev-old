@@ -1,0 +1,73 @@
+---
+title: Tema personalizado para ZSH
+subtitle: Tema personalizado para ZSH inspirado en la configuración que utilizo en mis cursos de JavaScript en Platzi.
+excerpt: >-
+  Tema personalizado para ZSH inspirado en la configuración que utilizo en mis cursos de JavaScript en Platzi.
+date: '2021-06-08'
+thumb_image: https://arepa.s3.amazonaws.com/oh-my-zsh-gndx-theme.jpg
+thumb_image_alt: tema gndx para zsh
+image: https://arepa.s3.amazonaws.com/oh-my-zsh-gndx-theme.jpg
+image_alt: tema gndx para zsh
+seo:
+  title: Tema personalizado para ZSH
+  description: >-
+    Tema personalizado para ZSH inspirado en la configuración que utilizo en mis cursos de JavaScript en Platzi.
+  extra:
+    - name: 'og:type'
+      value: article
+      keyName: property
+    - name: 'og:title'
+      value: Tema personalizado para ZSH
+      keyName: property
+    - name: 'og:description'
+      value: >-
+        Tema personalizado para ZSH inspirado en la configuración que utilizo en mis cursos de JavaScript en Platzi.
+      keyName: property
+    - name: 'og:image'
+      value: https://arepa.s3.amazonaws.com/oh-my-zsh-gndx-theme.jpg
+      keyName: property
+      relativeUrl: true
+    - name: 'twitter:card'
+      value: summary_large_image
+    - name: 'twitter:title'
+      value: Tema personalizado para ZSH
+    - name: 'twitter:description'
+      value: >-
+        Tema personalizado para ZSH inspirado en la configuración que utilizo en mis cursos de JavaScript en Platzi.
+    - name: 'twitter:image'
+      value: https://arepa.s3.amazonaws.com/oh-my-zsh-gndx-theme.jpg
+      relativeUrl: true
+layout: post
+---
+
+Actualmente tengo más de 18 cursos en la plataforma de educación online [Platzi](https://platzi.com/teachers/gndx) donde enseño **JavaScript**, el uso de la terminal es muy importante en mis cursos cuando estamos trabajando con NodeJS o JavaScript con algún Framework o Librería. 
+
+Una de las preguntas que más me hacen es cual es mi configuración de mi terminal/consola/bash/promt, A la cual siempre respondía que era un tema personalizado creado basándome en los temas por defecto que incluye [Oh My Zsh](https://ohmyz.sh/).
+
+No es hasta ahora que prepare el tema, lo optimice y adapte para que todos puedan instalarlo en sus configuraciones de **Oh My Zsh**.
+
+###  Vista Previa de gndx-zsh-theme
+
+![gndx zsh theme](https://raw.githubusercontent.com/gndx/gndx-zsh-theme/master/screenshot.png)
+
+
+###  Instalación
+
+1. En tu terminal escribe lo siguiente: `git clone https://github.com/gndx/gndx-zsh-theme/ $ZSH_CUSTOM/themes/gndx-zsh-theme`
+
+2. Abre tu configuración de: `.zshrc`
+
+3. Cambia el valor de `ZSH_THEME` por *`gndx-zsh-theme/gndx`*
+
+Más información: [Oh-My-Zsh External themes](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes)
+
+###  Extras
+Actualmente utilizo los plugins [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) y [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting) que me permiten tener una mejor experiencia utilizando los comandos.
+
+Fuente recomendada: [FiraCode](https://github.com/tonsky/FiraCode)
+
+###  Contribuir
+Si alguien quiere agregar o mejorar algo, te invito a colaborar directamente en este repositorio: [gndx-zsh-theme](https://github.com/gndx/gndx-zsh-theme)
+
+###  Licencia
+gndx-zsh-theme se lanza bajo la [MIT License](https://opensource.org/licenses/MIT).
