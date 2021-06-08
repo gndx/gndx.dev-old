@@ -8,35 +8,7 @@ thumb_image: https://arepa.s3.amazonaws.com/gndx-creador-de-contenido-educativo.
 thumb_image_alt: Mi primer año creando contenido educativo
 image: https://arepa.s3.amazonaws.com/gndx-creador-de-contenido-educativo.png
 image_alt: Mi primer año creando contenido educativo
-seo:
-  title: Mi primer año creando contenido educativo
-  description: >-
-    Un breve recorrido por el primer año creando contenido educativo, y la evolución de mi espacio utilizo para livestreams, grabar, editar, jugar y trabajar.
-  extra:
-    - name: 'og:type'
-      value: article
-      keyName: property
-    - name: 'og:title'
-      value: Mi primer año creando contenido educativo
-      keyName: property
-    - name: 'og:description'
-      value: >-
-        Un breve recorrido por el primer año creando contenido educativo, y la evolución de mi espacio utilizo para livestreams, grabar, editar, jugar y trabajar.
-      keyName: property
-    - name: 'og:image'
-      value: https://arepa.s3.amazonaws.com/gndx-creador-de-contenido-educativo.png
-      keyName: property
-      relativeUrl: true
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: Mi primer año creando contenido educativo
-    - name: 'twitter:description'
-      value: >-
-        Un breve recorrido por el primer año creando contenido educativo, y la evolución de mi espacio utilizo para livestreams, grabar, editar, jugar y trabajar.
-    - name: 'twitter:image'
-      value: https://arepa.s3.amazonaws.com/gndx-creador-de-contenido-educativo.png
-      relativeUrl: true
+url: blog/mi-setup-2021
 layout: post
 ---
 

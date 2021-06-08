@@ -8,35 +8,7 @@ thumb_image: https://arepa.s3.amazonaws.com/alguien-dijo-svelte-gndx.png
 thumb_image_alt: Svelte
 image: https://arepa.s3.amazonaws.com/alguien-dijo-svelte-gndx.png
 image_alt: Svelte
-seo:
-  title: ¿Alguien dijo Svelte?
-  description: >-
-    Quiero aprender Svelte, ¿por dónde empiezo? Svelte es el framework de JavaScript para construir interfaces de usuario.
-  extra:
-    - name: 'og:type'
-      value: article
-      keyName: property
-    - name: 'og:title'
-      value: ¿Alguien dijo Svelte?
-      keyName: property
-    - name: 'og:description'
-      value: >-
-        Quiero aprender Svelte, ¿por dónde empiezo? Svelte es el framework de JavaScript para construir interfaces de usuario.
-      keyName: property
-    - name: 'og:image'
-      value: https://arepa.s3.amazonaws.com/alguien-dijo-svelte-gndx.png
-      keyName: property
-      relativeUrl: true
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: ¿Alguien dijo Svelte?
-    - name: 'twitter:description'
-      value: >-
-        Quiero aprender Svelte, ¿por dónde empiezo? Svelte es el framework de JavaScript para construir interfaces de usuario.
-    - name: 'twitter:image'
-      value: https://arepa.s3.amazonaws.com/alguien-dijo-svelte-gndx.png
-      relativeUrl: true
+url: blog/alguien-dijo-svelte
 layout: post
 ---
 

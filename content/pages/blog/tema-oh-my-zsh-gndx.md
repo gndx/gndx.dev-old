@@ -8,6 +8,7 @@ thumb_image: 'https://arepa.s3.amazonaws.com/oh-my-zsh-gndx-theme.jpg'
 thumb_image_alt: tema gndx para zsh
 image: 'https://arepa.s3.amazonaws.com/oh-my-zsh-gndx-theme.jpg'
 image_alt: tema gndx para zsh
+url: blog/tema-oh-my-zsh-gndx
 layout: post
 ---
 

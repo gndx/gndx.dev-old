@@ -8,35 +8,7 @@ thumb_image: https://arepa.s3.amazonaws.com/como-conseguir-tu-primer-empleo-como
 thumb_image_alt: Svelte
 image: https://arepa.s3.amazonaws.com/como-conseguir-tu-primer-empleo-como-programador.jpg
 image_alt: Svelte
-seo:
-  title: ¡Como conseguir tu primer empleo como programador!
-  description: >-
-    Que necesitas saber para conseguir tu primer empleo como programador.
-  extra:
-    - name: 'og:type'
-      value: article
-      keyName: property
-    - name: 'og:title'
-      value: ¡Como conseguir tu primer empleo como programador!
-      keyName: property
-    - name: 'og:description'
-      value: >-
-        Que necesitas saber para conseguir tu primer empleo como programador.
-      keyName: property
-    - name: 'og:image'
-      value: https://arepa.s3.amazonaws.com/como-conseguir-tu-primer-empleo-como-programador.jpg
-      keyName: property
-      relativeUrl: true
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: ¡Como conseguir tu primer empleo como programador!
-    - name: 'twitter:description'
-      value: >-
-        Que necesitas saber para conseguir tu primer empleo como programador.
-    - name: 'twitter:image'
-      value: https://arepa.s3.amazonaws.com/como-conseguir-tu-primer-empleo-como-programador.jpg
-      relativeUrl: true
+url: blog/como-conseguir-tu-primer-empleo-como-programador
 layout: post
 ---
 

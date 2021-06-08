@@ -8,38 +8,7 @@ thumb_image: https://arepa.s3.amazonaws.com/podcast-error418-oscar-barajas-gndx.
 thumb_image_alt: Library shelves
 image: https://arepa.s3.amazonaws.com/podcast-error418-oscar-barajas-gndx.png
 image_alt: Library shelves
-seo:
-  title: Hola Mundo, Conociendo a Oscar Barajas.
-  description: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore
-  extra:
-    - name: 'og:type'
-      value: article
-      keyName: property
-    - name: 'og:title'
-      value: Hola Mundo, Conociendo a Oscar Barajas.
-      keyName: property
-    - name: 'og:description'
-      value: >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore
-      keyName: property
-    - name: 'og:image'
-      value: https://arepa.s3.amazonaws.com/podcast-error418-oscar-barajas-gndx.png
-      keyName: property
-      relativeUrl: true
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: Hola Mundo, Conociendo a Oscar Barajas.
-    - name: 'twitter:description'
-      value: >-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore
-    - name: 'twitter:image'
-      value: https://arepa.s3.amazonaws.com/podcast-error418-oscar-barajas-gndx.png
-      relativeUrl: true
+url: podcast/error418-s01e01-hola-mundo-oscar-barajas
 layout: podcast
 ---
 

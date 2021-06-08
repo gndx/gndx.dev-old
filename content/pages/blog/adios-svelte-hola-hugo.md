@@ -8,35 +8,7 @@ thumb_image: https://arepa.s3.amazonaws.com/adios-svelte-hola-hugo.jpg
 thumb_image_alt: Library shelves
 image: https://arepa.s3.amazonaws.com/adios-svelte-hola-hugo.jpg
 image_alt: Library shelves
-seo:
-  title: Adios Svelte, Hola Hugo.
-  description: >-
-    Por que le dije adios a Svelve, el framework prometedor que permite crear sorprentes aplicaciones web.
-  extra:
-    - name: 'og:type'
-      value: article
-      keyName: property
-    - name: 'og:title'
-      value: Adios Svelte, Hola Hugo.
-      keyName: property
-    - name: 'og:description'
-      value: >-
-        Por que le dije adios a Svelve, el framework prometedor que permite crear sorprentes aplicaciones web.
-      keyName: property
-    - name: 'og:image'
-      value: https://arepa.s3.amazonaws.com/adios-svelte-hola-hugo.jpg
-      keyName: property
-      relativeUrl: true
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: Adios Svelte, Hola Hugo.
-    - name: 'twitter:description'
-      value: >-
-        Por que le dije adios a Svelve, el framework prometedor que permite crear sorprentes aplicaciones web.
-    - name: 'twitter:image'
-      value: https://arepa.s3.amazonaws.com/adios-svelte-hola-hugo.jpg
-      relativeUrl: true
+url: blog/adios-svelte-hola-hugo
 layout: post
 ---
 

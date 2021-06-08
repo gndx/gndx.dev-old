@@ -8,35 +8,7 @@ thumb_image: https://arepa.s3.amazonaws.com/webpack-5-curso.png
 thumb_image_alt: webpack 5
 image: https://arepa.s3.amazonaws.com/webpack-5-curso.png
 image_alt: webpack 5
-seo:
-  title: Primeros pasos con Webpack 5
-  description: >-
-    Webpack es un module bundler, o en simples palabras Una librería que nos permite gestionar todos los recursos de un proyecto 
-  extra:
-    - name: 'og:type'
-      value: article
-      keyName: property
-    - name: 'og:title'
-      value: Primeros pasos con Webpack 5
-      keyName: property
-    - name: 'og:description'
-      value: >-
-        Webpack es un module bundler, o en simples palabras Una librería que nos permite gestionar todos los recursos de un proyecto 
-      keyName: property
-    - name: 'og:image'
-      value: https://arepa.s3.amazonaws.com/webpack-5-curso.png
-      keyName: property
-      relativeUrl: true
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: Primeros pasos con Webpack 5
-    - name: 'twitter:description'
-      value: >-
-        Webpack es un module bundler, o en simples palabras Una librería que nos permite gestionar todos los recursos de un proyecto 
-    - name: 'twitter:image'
-      value: https://arepa.s3.amazonaws.com/webpack-5-curso.png
-      relativeUrl: true
+url: blog/primeros-pasos-con-webpack-5
 layout: post
 ---
 

@@ -32,15 +32,14 @@ export default class Body extends React.Component {
         const configTitle = _.get(config, 'title');
         const colorScheme = _.get(config, 'color_scheme', 'light');
         const accentColor = _.get(config, 'accent_color', 'pink');
-
         const seoImage = _.get(page, 'thumb_image');
         const seoTitle = _.get(page, 'title');
+        const seoUrl = _.get(page, 'url');
         const seoDescription = _.get(page, 'subtitle');
-
         const title = seoTitle ? seoTitle : [pageTitle, configTitle].join(' | ');
-
         const description = seoDescription ? seoDescription : 'Foundation Layer at @platzi - Microsoft MVP - Lead at Developer Circles from Facebook - I teach React &amp; Svelte.'
         const ogImage = seoImage ? seoImage : 'https://arepa.s3.amazonaws.com/og-gndx.png';
+        const url = seoUrl ? `https://gndx.dev/${seoUrl}` : 'https://gndx.dev/';
 
         return (
             <React.Fragment>
@@ -50,7 +49,7 @@ export default class Body extends React.Component {
                     <meta name="description" content={description} />
                     <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap" rel="stylesheet" />
                     <meta content="#333333" name="theme-color" />
-                    <link rel="canonical" href="https://gndx.dev/" />
+                    <link rel="canonical" href={url} />
                     <link href="favicon.png" rel="icon" type="image/png" />
                     <meta name="description" content={description} />
                     <meta name="twitter:card" content="summary_large_image" />
@@ -62,7 +61,7 @@ export default class Body extends React.Component {
                     <meta property="og:title" content={title} />
                     <meta property="og:description" content={description} />
                     <meta property="og:image" content={ogImage} />
-                    <meta property="og:url" content="https://gndx.dev/" />
+                    <meta property="og:url" content={url} />
                     <meta property="og:site_name" content={title} />
                     <meta property="og:locale" content="es_ES" />
                     <meta property="og:type" content="article" />

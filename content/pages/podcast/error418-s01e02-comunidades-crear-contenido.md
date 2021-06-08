@@ -8,35 +8,7 @@ thumb_image: https://arepa.s3.amazonaws.com/podcast-02-og.png
 thumb_image_alt: Library shelves
 image: https://arepa.s3.amazonaws.com/podcast-02-og.png
 image_alt: Library shelves
-seo:
-  title: Hablemos de comunidades y crear contenido
-  description: >-
-    El segundo episodio, crear comunidades y crear contenido, mi experiencia a lo largo de los años.
-  extra:
-    - name: 'og:type'
-      value: article
-      keyName: property
-    - name: 'og:title'
-      value: Hablemos de comunidades y crear contenido
-      keyName: property
-    - name: 'og:description'
-      value: >-
-        El segundo episodio, crear comunidades y crear contenido, mi experiencia a lo largo de los años.
-      keyName: property
-    - name: 'og:image'
-      value: https://arepa.s3.amazonaws.com/podcast-02-og.png
-      keyName: property
-      relativeUrl: true
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: Hablemos de comunidades y crear contenido
-    - name: 'twitter:description'
-      value: >-
-        El segundo episodio, crear comunidades y crear contenido, mi experiencia a lo largo de los años.
-    - name: 'twitter:image'
-      value: https://arepa.s3.amazonaws.com/podcast-02-og.png
-      relativeUrl: true
+url: podcast/error418-s01e02-comunidades-crear-contenido
 layout: podcast
 ---
 

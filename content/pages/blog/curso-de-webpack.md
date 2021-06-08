@@ -8,35 +8,7 @@ thumb_image: https://arepa.s3.amazonaws.com/curso-webpack.jpg
 thumb_image_alt: Webpack 5
 image: https://arepa.s3.amazonaws.com/curso-webpack.jpg
 image_alt: Webpack 5
-seo:
-  title: Curso de Webpack 5
-  description: >-
-    Aprende Webpack desde cero, prepara tu desarrollo web para hacerlo más ágil, rápido y optimizado.
-  extra:
-    - name: 'og:type'
-      value: article
-      keyName: property
-    - name: 'og:title'
-      value: Curso de Webpack 5
-      keyName: property
-    - name: 'og:description'
-      value: >-
-        Aprende Webpack desde cero, prepara tu desarrollo web para hacerlo más ágil, rápido y optimizado.
-      keyName: property
-    - name: 'og:image'
-      value: https://arepa.s3.amazonaws.com/curso-webpack.jpg
-      keyName: property
-      relativeUrl: true
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: Curso de Webpack 5
-    - name: 'twitter:description'
-      value: >-
-        Aprende Webpack desde cero, prepara tu desarrollo web para hacerlo más ágil, rápido y optimizado.
-    - name: 'twitter:image'
-      value: https://arepa.s3.amazonaws.com/curso-webpack.jpg
-      relativeUrl: true
+url: blog/mi-setup-2021
 layout: post
 ---
 

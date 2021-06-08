@@ -8,35 +8,7 @@ thumb_image: https://arepa.s3.amazonaws.com/retos-para-desarrolladores-web.jpg
 thumb_image_alt: webpack 5
 image: https://arepa.s3.amazonaws.com/retos-para-desarrolladores-web.jpg
 image_alt: webpack 5
-seo:
-  title: Retos para desarrolladores Web
-  description: >-
-    Quieres retarte y trabajar con grandes proyectos, te dejo mis recomendaciones de retos que te ayudaran a mejorar tu portafolio. 
-  extra:
-    - name: 'og:type'
-      value: article
-      keyName: property
-    - name: 'og:title'
-      value: Retos para desarrolladores Web
-      keyName: property
-    - name: 'og:description'
-      value: >-
-        Quieres retarte y trabajar con grandes proyectos, te dejo mis recomendaciones de retos que te ayudaran a mejorar tu portafolio. 
-      keyName: property
-    - name: 'og:image'
-      value: https://arepa.s3.amazonaws.com/retos-para-desarrolladores-web.jpg
-      keyName: property
-      relativeUrl: true
-    - name: 'twitter:card'
-      value: summary_large_image
-    - name: 'twitter:title'
-      value: Retos para desarrolladores Web
-    - name: 'twitter:description'
-      value: >-
-        Quieres retarte y trabajar con grandes proyectos, te dejo mis recomendaciones de retos que te ayudaran a mejorar tu portafolio. 
-    - name: 'twitter:image'
-      value: https://arepa.s3.amazonaws.com/retos-para-desarrolladores-web.jpg
-      relativeUrl: true
+url: blog/retos-para-desarrolladores-web
 layout: post
 ---
 
