@@ -4,9 +4,9 @@ subtitle: Aprende Webpack desde cero, prepara tu desarrollo web para hacerlo má
 excerpt: >-
   Aprende Webpack desde cero, prepara tu desarrollo web para hacerlo más ágil, rápido y optimizado.
 date: '2021-05-10'
-thumb_image: https://arepa.s3.amazonaws.com/curso-webpack.jpg
+thumb_image: https://arepa.s3.amazonaws.com/curso-webpack-5-platzi.jpg
 thumb_image_alt: Webpack 5
-image: https://arepa.s3.amazonaws.com/curso-webpack.jpg
+image: https://arepa.s3.amazonaws.com/curso-webpack-5-platzi.jpg
 image_alt: Webpack 5
 url: blog/mi-setup-2021
 layout: post
