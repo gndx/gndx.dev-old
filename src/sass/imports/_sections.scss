@@ -75,7 +75,7 @@
   &:after {
     border: 2px solid _palette(charcoal-light-75);
     box-sizing: border-box;
-    content: "";
+    content: '';
     height: 35%;
     left: 0;
     position: absolute;
@@ -121,44 +121,65 @@
   display: flex;
   align-items: center;
 
-}
-.Hero_content img {
-  width: 160px;
-  height: 160px;
-  border-radius: 100%;
-  margin: 0 1.5em 0 0;
-}
-.Hero_content .block-content {
-  width: 600px;
+  img {
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    margin: 0 1.5em 0 0;
+    object-fit: contain;
+  }
+
+  .block-content {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  @media only screen and (max-width: 800px) {
+    & {
+      flex-direction: column;
+    }
+
+    h1,
+    .block-content {
+      text-align: center;
+    }
+
+    img {
+      margin: 0 0 1.5rem 0;
+    }
+  }
 }
 
 .Posts {
-    display: grid;
-    grid-gap: 30px;
-    grid-row-gap: 30px;
-    grid-template-columns: 1fr 1fr 1fr;
-}.Course-content {
-    display: flex;
-    align-items: center;
+  display: grid;
+  grid-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.Course-content {
+  display: flex;
+  align-items: center;
 }
 .Posts h2 {
-    font-size: 18px;
-    margin: 0;
-    padding: 0;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
 }
 .Posts span {
-    font-weight: 300;
-    color: #d8195e;
-    font-size: 14px;
-    margin-bottom: 10px;
-}.Posts figure {
-    margin: 0;
-    padding: 0;
-}.Posts img {
-    width: 64px;
-    height: 64px;
-    max-width: 64px;
-    margin: 0 1em 0 0;
+  font-weight: 300;
+  color: #d8195e;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.Posts figure {
+  margin: 0;
+  padding: 0;
+}
+.Posts img {
+  width: 64px;
+  height: 64px;
+  max-width: 64px;
+  margin: 0 1em 0 0;
 }
 
 /* Portfolio section */
@@ -173,8 +194,8 @@
   left: 50%;
   position: absolute;
   top: 50%;
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   z-index: 2;
 
   .accent-green & {
@@ -197,26 +218,26 @@
   &:after {
     border: 2px solid _palette(accent);
     box-sizing: border-box;
-    content: "";
+    content: '';
     height: 32%;
     left: 0;
     position: absolute;
-    transition: .3s ease;
-    -webkit-transition: .3s ease;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
     width: 100%;
 
     .accent-green & {
       border-color: _palette(accent-green);
     }
-  
+
     .accent-blue & {
       border-color: _palette(accent-blue);
     }
-  
+
     .accent-violet & {
       border-color: _palette(accent-violet);
     }
-  
+
     .accent-yellow & {
       border-color: _palette(accent-yellow);
     }
